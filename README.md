@@ -1,2 +1,2 @@
 # basketball-stats
-Node Express for Basketball stats
+Node Express service for NBA stats
