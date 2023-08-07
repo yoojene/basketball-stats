@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", (req: Request, res: Response) => {
   res.send(
-    "<h1>🏀 Basketball Stats is alive! 🏀</h1><a href='https://github.com/yoojene' target='_blank'>Docs</a>"
+    "<h1>🏀 Basketball Stats is alive! 🏀</h1><a href='https://github.com/yoojene/basketball-stats' target='_blank'>Docs</a>"
   );
 });
 
