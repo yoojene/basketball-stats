@@ -1,0 +1,1 @@
+export const ENDPOINT = "https://balldontlie.io/api/v1"
