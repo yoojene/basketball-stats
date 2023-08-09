@@ -18,7 +18,7 @@ app.get("/", (req: Request, res: Response) => {
   );
 });
 
-app.use("/player", require("./routes/api/player"));
-app.use("/team", require("./routes/api/team"));
+app.use("/players", require("./routes/api/players"));
+app.use("/teams", require("./routes/api/teams"));
 
 app.listen(PORT, () => console.log(`Running on ${PORT} ⚡`));
